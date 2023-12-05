@@ -1,0 +1,202 @@
+html, body, #root, .App, .cardHolder{
+  width: 100%;
+  height: 100%;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+  margin: 0;
+  font-weight: bold;
+}
+.cardHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.border{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 88%;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+.card-info-desighn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 92%;
+  height: 95%;
+  background-blend-mode: screen;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: linear-gradient(rgb(54, 54, 54), transparent), linear-gradient(to top left, rgb(175, 175, 175), transparent), linear-gradient(to top right, rgb(34, 34, 34), transparent);
+  position: relative;
+}
+
+
+.pok-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  position: relative;
+}
+
+.card-title-holder{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 6%;
+}
+
+.card-title{
+  width: 81%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.left{
+  display: flex;
+  
+}
+
+.basic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 10px;
+
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.element{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.right-title{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.element-circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-blend-mode: screen;
+  background: linear-gradient(rgb(137, 137, 137), transparent), linear-gradient(to top left, rgb(255, 255, 255), transparent), linear-gradient(to top right, rgb(199, 199, 199), transparent);
+  border: 2px solid gray;
+}
+
+
+
+.big-container{
+  width: 100%;
+  height: 30%;
+}
+
+.big-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  background-color: rgb(225, 255, 245);
+  height: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.wide-box{
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  background-color: aliceblue;
+  border: 2px solid gray;
+}
+
+.movess{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+}
+.moves{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.move{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.back-card{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.small{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.bottom{
+  width: 92%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.wide-box-2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%;
+  gap: 20px;
+}
