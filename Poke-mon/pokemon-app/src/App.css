@@ -6,13 +6,33 @@ h1,h2,h3,h4,h5,h6,p,div{
   margin: 0;
   font-weight: bold;
 }
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  line-height: normal;
+  cursor: pointer;
+  outline: none;
+}
+.App{
+  display: flex;
+  justify-content: center;
+}
 .cardHolder{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: white;
 }
 
 .border{
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,10 +111,36 @@ h1,h2,h3,h4,h5,h6,p,div{
   top: 0;
 }
 
+.imgEvo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 10px;
+
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .element{
   width: 100%;
   height: 100%;
   
+}
+
+.hidden{
+  z-index: 1;
 }
 
 .right-title{
